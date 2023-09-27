@@ -22,7 +22,18 @@ public class FormSubmitServlet extends HttpServlet{
         System.out.println("This is called from HttpServlet");
         response.setContentType("text/html");
         PrintWriter output=response.getWriter();
-       output.println("<h1>This is from Servlet Good Working</h1>");
+        String name=request.getParameter("name");
+        String email=request.getParameter("email");
+        String password=request.getParameter("password");
+        String gender=request.getParameter("gender");
+        String cars=request.getParameter("cars");
+        String horns=request.getParameter("horns");
+       output.println("<h3>Name: "+name+"</h3>");
+       output.println("<h3>email: "+email+"</h3>");
+       output.println("<h3>password: "+password+"</h3>");
+       output.println("<h3>gender: "+gender+"</h3>");
+       output.println("<h3>cars: "+cars+"</h3>");
+       output.println("<h3>horns: "+horns+"</h3>");
        output.println("<h1>today is "+new Date()+"</h1>");
     } 
 }
