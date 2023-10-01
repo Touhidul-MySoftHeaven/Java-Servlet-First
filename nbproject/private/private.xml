@@ -3,9 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/S:/JavaWebNetBeans/WebApplicationSecond/web/form.html</file>
+            <file>file:/S:/JavaWebNetBeans/WebApplicationSecond/src/java/com/second/servlets/ForwardRequestServlet.java</file>
+            <file>file:/S:/JavaWebNetBeans/WebApplicationSecond/src/java/com/servlets/SuccessServlet.java</file>
+            <file>file:/S:/JavaWebNetBeans/WebApplicationSecond/src/java/com/second/servlets/ServletReceive.java</file>
             <file>file:/S:/JavaWebNetBeans/WebApplicationSecond/web/WEB-INF/web.xml</file>
+            <file>file:/S:/JavaWebNetBeans/WebApplicationSecond/src/java/com/servlets/FirstServlet.java</file>
             <file>file:/S:/JavaWebNetBeans/WebApplicationSecond/src/java/com/servlets/FormSubmitServlet.java</file>
+            <file>file:/S:/JavaWebNetBeans/WebApplicationSecond/web/welcome.html</file>
         </group>
     </open-files>
 </project-private>
